@@ -15,6 +15,6 @@ public class SpringbootCicdApplication {
 
     @GetMapping("/")
     public String hello() {
-        return "one half royal ranthambore party dedo jitu bro";
+        return "Hello Riya Baby kese ho aap";
     }	
 }
