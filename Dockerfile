@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy the jar built by Maven into the container
 # Make sure this matches your Maven build artifact name
-COPY target/springboot-cicd-0.0.1-SNAPSHOT.jar app.jar
+COPY target/springboot-cicd-0.0.1-SNAPSHOT.jar.original app.jar
 
 # Expose the port your Spring Boot app uses
 EXPOSE 8081
